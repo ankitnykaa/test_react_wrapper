@@ -6,8 +6,7 @@ class App extends React.Component {
    }
    render() {
       return (
-         <div className="widget" data-id="599329b0fa13431c51f90363">
-           
+         <div className="widget" data-id={this.props.inventoryId}>
          </div>
       );
    }
